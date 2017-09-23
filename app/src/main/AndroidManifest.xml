@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prince.savelife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.nobar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".SignupPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".MainPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".SuccessfullyPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".EmergencyPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity android:name=".AboutUs" />
+        <activity
+            android:name=".DeveloperPage"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".DonarRegistration"
+            android:theme="@style/AppTheme.nobar" />
+        <activity
+            android:name=".FindBlood"
+            android:theme="@style/AppTheme.nobar" />
+        <activity android:name=".ErrorPage" />
+        <activity android:name=".BloodBank"
+            android:theme="@style/AppTheme.nobar"/>
+    </application>
+
+</manifest>

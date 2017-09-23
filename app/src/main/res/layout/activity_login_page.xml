@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    tools:context="com.example.prince.savelife.LoginPage">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:clipToPadding="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/signinbutton"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="SIGN IN"
+            android:background="#8b0000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Button
+            android:id="@+id/signupbutton"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#8b0000"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SIGN UP"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="USER NAME"
+            android:inputType="textPersonName"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:textColor="#00ff00"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:textColor="#00ff00"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="#8b0000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/linear2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/donar"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/linear2"
+        android:layout_marginTop="19dp" />
+</RelativeLayout>

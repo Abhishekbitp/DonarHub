@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prince.savelife.DonarRegistration"
+    android:background="#FFC0CB">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textViewreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registeration Form"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_below="@+id/toolbardon"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textViewreg"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nameeditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nFULL NAME"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/nameviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your name"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/adresseditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nADDRESS"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/adressviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your address"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/cityeditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nCITY"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/cityviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your city name"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/celleditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nCONTACT NUMBER"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/cellviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your contact number"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/bloddeditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nBLOOD GROUP"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bloddviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your blood group"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ageeditreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="\nAGE"
+                android:textColor="#8b0000"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ageviewreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Enter your age"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8b0000"
+                android:text="Submit"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

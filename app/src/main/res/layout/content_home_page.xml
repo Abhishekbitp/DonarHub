@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prince.savelife.HomePage"
+    tools:showIn="@layout/activity_home_page"
+    android:background="@drawable/cell">
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Donar Registration"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:background="@drawable/button"
+        android:layout_marginTop="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/find"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Find \nBlood"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:background="@drawable/button"
+        android:layout_below="@+id/reg"
+        android:layout_alignStart="@+id/reg"
+        android:layout_marginTop="31dp" />
+    <Button
+        android:id="@+id/bank"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Blood \nBank"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:background="@drawable/button"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/find"
+        android:layout_alignStart="@+id/find" />
+</RelativeLayout>

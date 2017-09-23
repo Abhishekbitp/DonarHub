@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.prince.dot.MainActivity">
+
+
+    <item
+        android:id="@+id/action_Emer"
+        android:orderInCategory="100"
+        android:title="Emergency Number"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_con"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dev"
+        android:orderInCategory="100"
+        android:title="Developed By"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+</menu>

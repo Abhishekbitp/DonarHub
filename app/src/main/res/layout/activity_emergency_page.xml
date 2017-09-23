@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prince.savelife.EmergencyPage"
+    android:background="@drawable/contact">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/useless5"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text=" Donar Hub"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Air Ambulance\n+91 9540161344"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="#ffffff"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Ambulance\n102"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Blood bank Information\n1910"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/findemer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="53dp"
+        android:background="#8b0000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="SEARCH MORE"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

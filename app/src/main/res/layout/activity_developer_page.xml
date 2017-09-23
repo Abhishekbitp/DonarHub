@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prince.savelife.DeveloperPage"
+    android:background="@drawable/contact">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+    <TextView
+        android:id="@+id/uselessdev"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text=" Donar Hub"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="118dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewdev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed and Developed BY\n\nAbhishek\nBIT Patna\nRCPL\nID : 6785-J4QT3U\n+91-9546167192\n"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/toolbardev"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView2dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supported By\n\nBrajRaj Singh\nand\nMukesh"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textView3dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spaecial\nTHANKs\nto them"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#00ff00"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+
+</RelativeLayout>
+
